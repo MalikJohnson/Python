@@ -5,3 +5,8 @@ print("Hello, world!")
 name = "Malik Johnson"
 age = 25
 print(f"My name is {name} and I am {age} years old.")
+
+#Basic if statement
+x = 10
+if x > 5:
+    print("x is greater than 5")
