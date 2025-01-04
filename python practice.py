@@ -10,3 +10,8 @@ print(f"My name is {name} and I am {age} years old.")
 x = 10
 if x > 5:
     print("x is greater than 5")
+
+
+#Basic for loop
+for i in range(5):
+    print(i)
