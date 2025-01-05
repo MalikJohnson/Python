@@ -15,3 +15,9 @@ if x > 5:
 #Basic for loop
 for i in range(5):
     print(i)
+
+#Function test
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Malik"))
