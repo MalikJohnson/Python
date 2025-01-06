@@ -21,3 +21,8 @@ def greet(name):
     return f"Hello, {name}!"
 
 print(greet("Malik"))
+
+#Basic List testing
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
