@@ -26,3 +26,7 @@ print(greet("Malik"))
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
+
+#input reading
+name = input("Enter your name: ")
+print(f"Hello, {name}")
