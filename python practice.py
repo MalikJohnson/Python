@@ -30,3 +30,9 @@ for fruit in fruits:
 #input reading
 name = input("Enter your name: ")
 print(f"Hello, {name}")
+
+#exception handling testing
+try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
