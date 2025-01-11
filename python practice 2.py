@@ -12,3 +12,10 @@ print(my_dict)
 print(my_dict["banana"])
 my_dict["date"] = 7
 print(my_dict)
+
+#Some set usage for testing
+my_set = {1, 2, 3, 2, 1}
+print(my_set)
+my_set.add(4)
+print(my_set)
+print(f"Is 3 in set? {'Yes' if 3 in my_set else 'No'}")
