@@ -19,3 +19,9 @@ print(my_set)
 my_set.add(4)
 print(my_set)
 print(f"Is 3 in set? {'Yes' if 3 in my_set else 'No'}")
+
+#More list testing
+squares = [x**2 for x in range(10)]
+print(squares)
+evens = [x for x in squares if x % 2 == 0]
+print(evens)
