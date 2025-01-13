@@ -25,3 +25,7 @@ squares = [x**2 for x in range(10)]
 print(squares)
 evens = [x for x in squares if x % 2 == 0]
 print(evens)
+
+#range and a loop
+for i in range(1, 6):
+    print(f"Number: {i}")
