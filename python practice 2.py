@@ -29,3 +29,8 @@ print(evens)
 #range and a loop
 for i in range(1, 6):
     print(f"Number: {i}")
+
+#Some tuble basics
+my_tuple = (1, 2, 3)
+print(my_tuple)
+print(my_tuple[1])
