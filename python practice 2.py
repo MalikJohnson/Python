@@ -34,3 +34,8 @@ for i in range(1, 6):
 my_tuple = (1, 2, 3)
 print(my_tuple)
 print(my_tuple[1])
+
+#using len and slciing 
+my_list = [10, 20, 30, 40, 50]
+print(len(my_list))
+print(my_list[1:4])
