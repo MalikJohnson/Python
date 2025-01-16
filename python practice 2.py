@@ -39,3 +39,9 @@ print(my_tuple[1])
 my_list = [10, 20, 30, 40, 50]
 print(len(my_list))
 print(my_list[1:4])
+
+#min max sum
+numbers = [5, 10, 15, 20]
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
