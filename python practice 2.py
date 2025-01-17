@@ -45,3 +45,8 @@ numbers = [5, 10, 15, 20]
 print(min(numbers))
 print(max(numbers))
 print(sum(numbers))
+
+#enumerate test
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(f"{index}: {fruit}")
