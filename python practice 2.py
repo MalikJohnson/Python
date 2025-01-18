@@ -50,3 +50,9 @@ print(sum(numbers))
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print(f"{index}: {fruit}")
+
+#Test using zip
+names = ["Alice", "Bob", "Charlie"]
+scores = [85, 90, 95]
+for name, score in zip(names, scores):
+    print(f"{name} scored {score}")
