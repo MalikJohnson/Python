@@ -56,3 +56,8 @@ names = ["Alice", "Bob", "Charlie"]
 scores = [85, 90, 95]
 for name, score in zip(names, scores):
     print(f"{name} scored {score}")
+
+#Teesting out map
+numbers = [1, 2, 3, 4]
+squared = list(map(lambda x: x**2, numbers))
+print(squared)
