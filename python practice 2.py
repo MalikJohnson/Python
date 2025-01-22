@@ -71,3 +71,8 @@ print(evens)
 nums = [2, 4, 6]
 print(any(n % 2 != 0 for n in nums))  # False
 print(all(n % 2 == 0 for n in nums))  # True
+
+#Easy sorting check
+numbers = [5, 3, 9, 1]
+print(sorted(numbers))
+print(sorted(numbers, reverse=True))
