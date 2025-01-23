@@ -76,3 +76,9 @@ print(all(n % 2 == 0 for n in nums))  # True
 numbers = [5, 3, 9, 1]
 print(sorted(numbers))
 print(sorted(numbers, reverse=True))
+
+#collections test
+from collections import Counter
+letters = ['a', 'b', 'a', 'c', 'b', 'a']
+counter = Counter(letters)
+print(counter)
