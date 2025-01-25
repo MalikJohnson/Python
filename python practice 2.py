@@ -87,3 +87,7 @@ print(counter)
 numbers = [3, 1, 4, 1, 5]
 numbers.sort()
 print(numbers)
+
+#learning about is instance? never used this one before
+print(isinstance(5, int))
+print(isinstance("hello", str))
