@@ -91,3 +91,10 @@ print(numbers)
 #learning about is instance? never used this one before
 print(isinstance(5, int))
 print(isinstance("hello", str))
+
+#testing out help method
+def add(a, b):
+    """Return the sum of a and b."""
+    return a + b
+
+help(add)
