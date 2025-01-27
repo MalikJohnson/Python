@@ -98,3 +98,11 @@ def add(a, b):
     return a + b
 
 help(add)
+
+
+#Learning about sleep in python
+import time
+
+print("Waiting for 2 seconds...")
+time.sleep(2)
+print("Done!")
