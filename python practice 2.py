@@ -106,3 +106,8 @@ import time
 print("Waiting for 2 seconds...")
 time.sleep(2)
 print("Done!")
+
+#learning about random in python
+import random
+
+print(random.randint(1, 10))
