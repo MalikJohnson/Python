@@ -111,3 +111,8 @@ print("Done!")
 import random
 
 print(random.randint(1, 10))
+
+#Test of string join
+words = ['Hello', 'world']
+sentence = ' '.join(words)
+print(sentence)
