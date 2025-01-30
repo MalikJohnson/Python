@@ -116,3 +116,7 @@ print(random.randint(1, 10))
 words = ['Hello', 'world']
 sentence = ' '.join(words)
 print(sentence)
+
+#Test of strip method this one comes up alot for leetcode string questions
+text = "   hello world   "
+print(text.strip())
