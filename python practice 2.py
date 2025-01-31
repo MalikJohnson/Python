@@ -120,3 +120,8 @@ print(sentence)
 #Test of strip method this one comes up alot for leetcode string questions
 text = "   hello world   "
 print(text.strip())
+
+#learning about format
+name = "Malik"
+age = 25
+print("My name is {} and I am {} years old.".format(name, age))
