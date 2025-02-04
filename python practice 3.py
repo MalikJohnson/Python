@@ -22,3 +22,9 @@ def two_sum(nums, target):
     return []
 
 print(two_sum([2,7,11,15], 9))
+
+#removing duplicates from array
+def remove_duplicates(nums):
+    return list(set(nums))
+
+print(remove_duplicates([1,2,2,3,4,4,5]))
