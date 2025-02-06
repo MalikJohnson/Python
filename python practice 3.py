@@ -34,3 +34,12 @@ def merge_sorted(arr1, arr2):
     return sorted(arr1 + arr2)
 
 print(merge_sorted([1,3,5], [2,4,6]))
+
+#anagram check
+from collections import Counter
+
+def is_anagram(s1, s2):
+    return Counter(s1) == Counter(s2)
+
+print(is_anagram("listen", "silent"))
+print(is_anagram("hello", "world"))
