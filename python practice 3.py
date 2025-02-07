@@ -43,3 +43,9 @@ def is_anagram(s1, s2):
 
 print(is_anagram("listen", "silent"))
 print(is_anagram("hello", "world"))
+
+#find max in array
+def find_max(nums):
+    return max(nums)
+
+print(find_max([1,5,3,9,2]))
