@@ -49,3 +49,10 @@ def find_max(nums):
     return max(nums)
 
 print(find_max([1,5,3,9,2]))
+
+#counting vowles in string
+def count_vowels(s):
+    vowels = 'aeiou'
+    return sum(1 for char in s.lower() if char in vowels)
+
+print(count_vowels("Hello World"))
