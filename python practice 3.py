@@ -56,3 +56,9 @@ def count_vowels(s):
     return sum(1 for char in s.lower() if char in vowels)
 
 print(count_vowels("Hello World"))
+
+#reverse words in a sentence
+def reverse_words(sentence):
+    return ' '.join(sentence.split()[::-1])
+
+print(reverse_words("hello world this is python"))
