@@ -62,3 +62,10 @@ def reverse_words(sentence):
     return ' '.join(sentence.split()[::-1])
 
 print(reverse_words("hello world this is python"))
+
+#unique char check
+def all_unique(s):
+    return len(set(s)) == len(s)
+
+print(all_unique("abcde"))
+print(all_unique("hello"))
