@@ -69,3 +69,16 @@ def all_unique(s):
 
 print(all_unique("abcde"))
 print(all_unique("hello"))
+
+#finding first non repeating char
+from collections import Counter
+
+def first_non_repeating_char(s):
+    counts = Counter(s)
+    for char in s:
+        if counts[char] == 1:
+            return char
+    return None
+
+print(first_non_repeating_char("leetcode"))
+print(first_non_repeating_char("aabbcc"))
