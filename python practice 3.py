@@ -96,3 +96,9 @@ def fizzbuzz(n):
             print(i)
 
 fizzbuzz(15)
+
+#count words in a string
+def count_words(s):
+    return len(s.split())
+
+print(count_words("Hello world this is Python"))
