@@ -102,3 +102,18 @@ def count_words(s):
     return len(s.split())
 
 print(count_words("Hello world this is Python"))
+
+#check balanced parentheses 
+def is_balanced(s):
+    stack = []
+    pairs = {')': '(', '}': '{', ']': '['}
+    for char in s:
+        if char in pairs.values():
+            stack.append(char)
+        elif char in pairs.keys():
+            if not stack or stack.pop() != pairs[char]:
+                return False
+    return not stack
+
+print(is_balanced("()[]{}"))
+print(is_balanced("([)]"))
