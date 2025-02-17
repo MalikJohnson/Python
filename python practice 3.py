@@ -140,3 +140,10 @@ def max_profit(prices):
     return max_profit
 
 print(max_profit([7,1,5,3,6,4]))
+
+#find missing num
+def missing_number(nums):
+    n = len(nums) + 1
+    return n * (n - 1) // 2 - sum(nums)
+
+print(missing_number([3,0,1]))
